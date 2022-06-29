@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    druid:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://172.18.14.253:13306/demo?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: root@123
+appConfig:
+  scheduling:
+    threadPool:
+      corePoolSize: 2
+      maxPoolSize: 2
+      keepAliveSeconds: 0
