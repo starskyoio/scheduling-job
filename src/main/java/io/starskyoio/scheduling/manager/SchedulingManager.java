@@ -1,6 +1,5 @@
 package io.starskyoio.scheduling.manager;
 
-import com.alibaba.druid.util.StringUtils;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Maps;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
@@ -9,6 +8,7 @@ import io.starskyoio.scheduling.service.SysSchedulingJobService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.DisposableBean;
